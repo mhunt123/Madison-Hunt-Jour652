@@ -30,6 +30,8 @@ body{ font-family:"Open Sans",Arial,sans-serif;
 .sectionheader{font-size:1.5em;
   border-bottom:10px;
   border-top:20px;
+  margin-top: 0 auto;
+  margin-bottom: 0 auto;
   margin-left:0 auto;
   margin-right:0 auto;
   width:70%;
@@ -78,11 +80,13 @@ body{ font-family:"Open Sans",Arial,sans-serif;
 #do {margin-top: 5px;
     margin-right: 0 auto;
     margin-left: 0 auto;
-    margin-left: 0 auto;
+    margin-bottom: : 0 auto;
 }
 
 .top {width: 60%;
         min-width: 300px;
+        margin-right: 0 auto;
+        margin-left: 0 auto;
         margin: 0 auto;
         margin-bottom: 30px;
 }
