@@ -80,3 +80,9 @@ body{ font-family:"Open Sans",Arial,sans-serif;
     margin-left: 0 auto;
     margin-left: 0 auto;
 }
+
+.top {width: 60%;
+        min-width: 300px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+}
