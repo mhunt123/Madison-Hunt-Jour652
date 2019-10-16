@@ -1,0 +1,35 @@
+#content{
+  margin: 0 auto;
+  width:900px;
+  font-family: Georgia, sans-serif;
+  font-size: 13px;
+}
+
+#blockquote {font: 16px/24px normal helvetica, sans-serif;
+  font-style:
+  italic;margin-top:
+  15px;
+  margin-bottom: 15px;c
+  olor: red;margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px s
+  solid #ccc;
+
+}
+#byline{
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+.headline{
+  font-family: Helvetica, sans-serif;
+}
+
+.caption{
+  font-style: italic;
+}
+
+#Banner {
+margin:0 auto;
+}
