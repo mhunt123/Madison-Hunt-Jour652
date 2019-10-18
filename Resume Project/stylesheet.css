@@ -1,0 +1,86 @@
+.jobtitle{font-family: 'Jomolhari', serif;
+                font-size:1.3em;
+                margin-left: 0 auto;
+                margin-top: 50px;
+                margin-bottom:0 auto;
+                margin-right: 30px;
+                width:70%;
+                font-weight:800;
+
+}
+.organization{font-family: 'Jomolhari', serif;
+            margin-top: 0 auto;
+            margin-bottom: 0 auto;
+             font-weight:400;
+             font-size: 1.25em}
+
+
+.description {font-family: "Jomolhari", serif;
+              margin-top:5px;
+              margin-bottom: 5px;
+              margin-left: 0 auto;
+              margin-right: 0 auto;
+
+}
+.date {
+  font-family: "Jomolhari",serif;
+  font-size: 1em;
+  margin-top: 0 auto;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.verticalline {
+  margin border-bottom: 0 auto;
+  position: absolute;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  border-left: 2px solid black;
+  height: 1000px;
+
+}
+
+.sectionheader {
+  font-family: 'Jomolhari', serif;
+  margin-top: 0 auto;
+  margin-bottom: 0 auto;
+  font-weight:400;
+  font-size: 1.25em
+}
+
+.row{
+    width: 66%;
+    padding: 0 10px 0 0;
+    float: left;
+}
+
+.row2 {
+    width: 33%;
+    padding: 0 10px 0 0;
+    float: right;
+}
+
+
+.lsectionheader{font-family: 'Jomolhari', serif;
+                font-size:1.3em;
+                margin-left: 0 auto;
+                margin-top: 50px;
+                margin-bottom:0 auto;
+                margin-right: 30px;
+                width:70%;
+                font-weight:800;
+}
+
+.sdescription {
+  font-family: "Jomolhari", serif;
+                margin-top:10px;
+                margin-bottom: 10px;
+                margin-left: 0 auto;
+                margin-right: 0 auto;
+
+
+}
