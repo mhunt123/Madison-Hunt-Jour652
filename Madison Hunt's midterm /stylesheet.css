@@ -1,0 +1,129 @@
+.byline{
+font-family: 'PT Serif', serif;
+font-size:18px;
+}
+.date{
+  font-family: 'PT Serif', serif;
+  font-size:16px;
+
+}
+.publication{
+  font-family: 'PT Serif', serif;
+  font-size:15px;
+  font-style:italic;
+}
+#content{
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 12px;
+  margin:10px;
+  padding:5px;
+  line-height:1.5;
+ }
+.headline {
+font-family: 'PT Serif', serif;
+font-size:40px;
+font-style: italic;
+text-align:left;
+}
+.subhead1{
+font-family: 'PT Serif', serif;
+font-weight:bold;
+margin-top:10px;
+font-size: 20px;
+text-align:left;
+
+}
+
+.subhead2{
+font-family: 'PT Serif', serif;
+font-weight:bold;
+margin-top:-20px;
+margin-bottom:5px;
+font-size: 20px;
+text-align:left;
+
+}
+.subhead3{
+font-family: 'PT Serif', serif;
+font-weight:bold;
+margin-top:10px;
+margin-bottom:5px;
+font-size: 20px;
+text-align:left;
+}
+
+.comment{
+  font-style:italic;
+  font-size:14px;
+}
+
+.byline2{
+margin-top:5px;
+font-family: 'PT Serif', serif;
+font-size:18px;
+}
+
+.years{
+  font-family: 'PT Serif', serif;
+  font-size:16px;
+
+}
+.name{
+  font-family: 'PT Serif', serif;
+  font-size:16px;
+  font-weight:bold;
+}
+.location{  font-family: 'PT Serif', serif;
+  font-size:16px;}
+
+  .subhead4{
+  font-family: 'PT Serif', serif;
+  font-weight:bold;
+  margin-top:10px;
+  margin-bottom:5px;
+  font-size: 20px;
+  text-align:left;
+  }
+
+  .subhead5{
+  font-family: 'PT Serif', serif;
+  font-weight:bold;
+  margin-top:10px;
+  margin-bottom:5px;
+  font-size: 20px;
+  text-align:left;
+  }
+
+  .subhead6{
+  font-family: 'PT Serif', serif;
+  font-weight:bold;
+  margin-top:10px;
+  margin-bottom:5px;
+  font-size: 20px;
+  text-align:left;
+  }
+  .subhead7{
+  font-family: 'PT Serif', serif;
+  font-weight:bold;
+  margin-top:10px;
+  margin-bottom:5px;
+  font-size: 20px;
+  text-align:left;
+  }
+
+  .subhead8{
+  font-family: 'PT Serif', serif;
+  font-weight:bold;
+  margin-top:10px;
+  margin-bottom:5px;
+  font-size: 20px;
+  text-align:left;
+  }
+
+#col-md-12{
+float:center;
+}
+
+.banner{
+  margin:0 auto;
+}
