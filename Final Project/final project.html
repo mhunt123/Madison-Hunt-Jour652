@@ -1,0 +1,176 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ <title>Final Project</title>
+
+ <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
+
+<!-- Load c3.css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.14/c3.min.css" rel="stylesheet">
+  <!-- Load d3.js and c3.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.14/c3.min.js"></script>
+ </head>
+
+
+ <body>
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+ <nav class="navbar navbar-expand-lg navbar-dark and bg-dark">
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   <ul class="navbar-nav mr-auto">
+     <li class="nav-item active">
+       <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#">Link</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link disabled" href="#">Disabled</a>
+     </li>
+   </ul>
+ </div>
+</nav>
+
+<div id="container">
+<div class="headline">Mental Health and the College Student</div>
+<div class="byline">By: Madison Hunt</div>
+<div class="chapter">College: The first step.</div>
+
+<p> College is depicted as a renaissance of the student. But there are numerous challenges the college students face while in school. You are exposed to new opportunities, people and places that may be out of one’s comfort zone.
+</p>
+<p> Most students travel out of state, leaving their “security blanket” of a hometown. Financially, it may be hard to balance money while in school. Adding to the stress, you have a workload you may not be specifically ready or prepare for.
+</p>
+<p>The personal, physical and financial strain will come as a huge blow to some students. And to maintain all of that stress college students find themselves turning to their mental health offices to keep peace of mind.
+</p>
+<p>According to the National College of Health Assessment of 2008, more than one in three undergraduates reported “feeling so depressed it was difficult to function.”</p>
+
+<center><iframe width="700" height="415" src="https://www.youtube.com/embed/00CjNnzBC0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<center><div class="caption">T.V. show "Grownish" on Freeform highlighted mental health and the affect it has on college students.</div></center>
+
+<p> Even though mental health is different all across the board, there are similar factors that might add to the college setting. Some studies show that personality traits, such as perfectionism, are important moderators determining the amount of psychological distress that students report as a result of their college studies. As well the college environment may put a strain on the student’s ability to handle their mental health effectively. </p>
+<p> Sometimes even internal factors including, parental pressure, the pressure from the parents to graduate and do well can contribute to the strain on the student’s mental health. </p>
+<p>There are negative side effects when one doesn’t take care of their mental health. According to the NASPA Journal(2003), students with higher levels of psychological distress were characterized by higher test anxiety,lower academic self-efficacy, and less effective time management and use of study resources.</p>
+
+<br><center><img src="mentalhealth1.jpg" alt="picture" width="50%"></center></br>
+<p>Because of such an epidemic within the college community, mental health offices have seen an increase of visitation across the board. A recent analysis of initial intake data gathered from students who sought counseling services at a large university found that “the level of severity of these concerns is much greater than the traditional presenting problems of adjustment and individuation.</p>
+<div class="fact">The demand for counselors on campus is at an all-time high because of the external factors college students are facing.</div>
+
+<div id="container">
+
+  <div class="graphic-container">
+  <h2 class="charttitle">Factors Contributing to Mental Health</h2>
+  <br></br>
+  <div id="shootingsByTypeChart"></div>
+  <em class="caption">Source: Data collected by Webmd</em>
+</div>
+
+<p>A survey by the Association for University and College Counseling Center Directors found at least 95% of college counseling center directors surveyed said the number of students with significant psychological problems is a growing concern. It goes beyond the “typical” diagnosis of a college student. It’s beyond anxiety and seasonal depression.
+The survey also found that:</p>
+
+<center><ul class="description">
+
+            <li class="description">Anxiety is the top presenting concern among college students (41.6 percent), followed by depression (36.4 percent) and relationship problems (35.8 percent).</li>
+            <li class="description">On average, 24.5 percent of clients were taking psychotropic medications. However, 19 percent of directors report the availability of psychiatric services on their campus is inadequate.</li>
+            <li class="description">Directors report that 21 percent of counseling center students present with severe mental health concerns, while another 40 percent present with mild mental health concerns.</li>
+</ul></center>
+
+<br></br>
+
+<div class="chapter2">But why has the demand for psychological help on campus increased so much?</div>
+
+<p>There are three main reasons why psychological help has increased: social and cultural factors, disorders manifesting themselves in early adolescent, and societal views around mental health changing. </p>
+<p>Each student is a unique kind of case. Some social and cultural factors such as divorce, family dysfunction, instability, violence, early experimentation with drugs, alcohol and sex, and more all account for the students’ mental health. Psychologists handle each student with the basics of learning and understanding the kind of trauma they’ve been through.</p>
+
+<div class="graphic-container">
+  <h2 class="charttitle">Type of Student Reports of their mental health</h2>
+<div id="resourceOfficersChart"></div>
+<em class="caption">Source: Data collected by Teen Line</em>
+</div>
+
+<p>According to a survey by the National Survey of counseling center directors, disorders like schizophrenia, depression, and anxiety form in the early adolescent stage. So the start of college is when most students find themselves developing these kinds of mental disorders. </p>
+<p>Mental health has always been a huge epidemic, but now society has paid much more attention to the real adversities the average American faces while dealing with mental health issues. The topic of mental health and treatment has become a difficult but necessary conversation. As well, it shows a positive shift in attitude about learning and understanding a challenge most college students are facing today.</p>
+
+ <script type="text/javascript">
+//CHART2
+ var chart2 = c3.generate({
+     bindto: '#shootingsByTypeChart',
+     data: {
+       columns: [
+        ['Anxiety Disorder', 56],
+        ['Stress', 23],
+        ['ADHD', 12],
+        ['Learning Disabilities', 10],
+          ['Psychosis', 45],
+            ['Eating Disorders', 10],
+                ['Substance', 10],
+
+       ],
+       type: 'bar'
+     },
+     color: {
+       pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+     }
+   });
+
+//CHART 3
+   var chart3 = c3.generate({
+   bindto: '#resourceOfficersChart',
+   data: {
+     // iris data from R
+     columns: [
+       ['Feeling Lost', 86.4],
+       ['Feeling Exhausted', 82.1],
+        ['Feeling Very Sad', 62],
+        ['Feeling Very Lonely', 59.2],
+        ['Feeling Hopeless', 32.6],
+        ['Feeling Overwhelmed', 46.4],
+        ['Reported feeling so depressed it was difficult to function', 32.6],
+        ['Reported contemplating suicide', 8.1],
+
+     ],
+     type : 'pie',
+     onclick: function (d, i) { console.log("onclick", d, i); },
+     onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+     onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+   },
+   color: {
+     pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+   }
+ });
+
+ </script>
+
+<!--this is the div for the container-->
+</div>
+</div>
+
+<br></br>
+
+<iframe src="https://uploads.knightlab.com/storymapjs/5504b53cdb25d96c7c1c0061ada1d182/college-student-death-by-suicide/index.html" frameborder="0" width="100%" height="800"></iframe>
+
+<footer>
+<div class="footertext">Footer Text</div>
+<div class="footertext">Copyright 2019 Madison Hunt</div>
+</footer>
+
+</body>
+<!-- This is my website-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
