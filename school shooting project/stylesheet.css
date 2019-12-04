@@ -140,3 +140,11 @@ margin-left: 50px;
  font-family: 'Montserrat', sans-serif;
  margin:0 auto;
 }
+
+#foot{
+background-color: black;
+color: white;
+text-align: center;
+margin-top: 5px;
+margin-bottom: 50px;
+}
