@@ -4,20 +4,36 @@
               padding:30px;
 }
 .navbar-brand{
+  margin-left: 8px;
 
-margin-left: 8px;
-font-family: 'Baskervville', serif;
 font-size: 1.25em;
-color: #27b848;
+color: #fff;
 }
 
+.nav-link{
+font-family: 'Baskervville', serif;
+color: #fff;
+}
+
+ul.navbar-nav {
+ margin-left:60%;
+}
+
+.bg-dark {
+ background:#000 !important;
+}
 .headline {
           font-family:'Baskervville', serif;
-          font-size: 2.5em;
+          font-size: 2em;
           text-transform: uppercase;
           text-align: center;
           font-weight: bold;
           margin: auto;
+}
+
+.brain{
+  width: 20px;
+  margin-left: 5px;
 }
 
 .green{
@@ -25,10 +41,20 @@ color: #27b848;
 }
 .chapter{
   font-family:'Baskervville', serif;
-  font-size: 2em;
+  font-size: 1.5em;
   text-transform: uppercase;
-  margin-top: 50px;
-  text-align: left;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color:#27b848;
+
+}
+.chapter1{
+  font-family:'Baskervville', serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-top: -30px;
+  text-align: center;
   font-weight: bold;
   color:#27b848;
 
@@ -36,7 +62,7 @@ color: #27b848;
 
 .byline{
           font-family:'Baskervville', serif;
-          font-size: 1.5em;
+          font-size: 1em;
           text-transform: uppercase;
           text-align: center;
           font-weight: bold;
@@ -86,7 +112,7 @@ p {
   font-family:'Baskervville', serif;
   font-size: 1.5em;
   font-style: italic;
-  margin-top: 10px;
+  margin-top: 30px;
   text-align: center;
   font-weight: bold;
   color:#27b848;
